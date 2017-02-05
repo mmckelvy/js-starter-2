@@ -1,0 +1,19 @@
+{
+  "name": "js-starter-2",
+  "version": "1.0.0",
+  "description": "A starter for js projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "author": "Mark McKelvy",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "boom": "^4.2.0",
+    "express": "^4.14.1"
+  }
+}
