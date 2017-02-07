@@ -1,6 +1,8 @@
 const webpack = require('webpack')
 const path = require('path')
 
+// What do I need to do next?
+// Try to output a build
 const config = {
   entry: path.resolve(__dirname, '../assets/js/src/index.js'),
   output: {
@@ -8,3 +10,5 @@ const config = {
     filename: 'bundle.js'
   }
 }
+
+module.exports = config
