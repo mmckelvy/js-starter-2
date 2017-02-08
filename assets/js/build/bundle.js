@@ -70,8 +70,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-console.log('Hello world')
-
+console.log('Hello world');
 
 /***/ })
 /******/ ]);
