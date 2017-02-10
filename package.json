@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "build": "webpack --config config/webpack.config.js",
-    "test": "test"
+    "test": "test",
+    "lint": "./node_modules/.bin/eslint assets/js/src/**"
   },
   "author": "Mark McKelvy",
   "license": "MIT",
@@ -17,6 +18,8 @@
   },
   "dependencies": {
     "boom": "^4.2.0",
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   }
 }
