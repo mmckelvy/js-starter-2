@@ -7,7 +7,7 @@
     "start": "node index.js",
     "build": "webpack --config config/webpack.config.js",
     "test": "test",
-    "lint": "./node_modules/.bin/eslint assets/js/src/**"
+    "lint": "./node_modules/.bin/eslint assets/js/src/** lib/** -c config/eslint.js"
   },
   "author": "Mark McKelvy",
   "license": "MIT",
