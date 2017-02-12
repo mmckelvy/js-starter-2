@@ -9,7 +9,6 @@ const app = express()
 app.use(express.static(path.join(__dirname, 'assets')))
 
 // Routes
-// Can we export app?
 app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'views/index.html'))
 })
