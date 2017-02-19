@@ -1,9 +1,14 @@
-const express = require('express')
 const http = require('http')
 const path = require('path')
+const express = require('express')
+const bodyParser = require('body-parser')
 
 // Create the express app
 const app = express()
+
+// Parse POST bodies
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }))
 
 // Set up static file handling
 app.use(express.static(path.join(__dirname, 'assets')))
